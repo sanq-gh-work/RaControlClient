@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="sanq.ractrl.launcher"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+    <uses-permission android:required="true" android:name="android.permission.INTERNET"/>
+    <uses-permission android:required="true" android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:required="true" android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:required="true" android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/app">
+
+
+
+        <activity android:name="Main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="sanq.ractrl.core.Prefs"
+                android:label="@string/prefs_title"
+                android:theme="@android:style/Theme.Black">
+        </activity>
+
+    </application>
+
+
+</manifest> 

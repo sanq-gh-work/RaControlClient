@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_gravity="center"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:layout_width="fill_parent"
+                  android:layout_weight="0.5"
+                  android:padding="10sp"
+                  android:layout_height="fill_parent">
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/system"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:id="@+id/imageButton"  />
+
+        </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                android:layout_gravity="center"
+                  android:layout_width="fill_parent"
+                  android:layout_weight="1"
+                  android:padding="10sp"
+                  android:layout_height="fill_parent">
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shutdown"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:id="@+id/imgSystemShutdown"
+                android:layout_weight="1" android:scaleType="fitCenter"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/reboot"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:id="@+id/imgSystemReboot"
+                android:layout_weight="1" android:scaleType="fitCenter"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:id="@+id/imgSystemCancel"
+                android:layout_weight="1" android:scaleType="fitCenter"/>
+
+
+    </LinearLayout>
+         </LinearLayout>
+
+
