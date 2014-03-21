@@ -8,6 +8,9 @@ import sanq.ractrl.launcher.Main;
  * Date: 04.05.13
  * Time: 16:54
  * To change this template use File | Settings | File Templates.
+ *
+ * test
+ *
  */
 public interface Const {
     public final static String TAG = "myApp";
