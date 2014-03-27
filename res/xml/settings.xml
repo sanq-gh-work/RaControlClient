@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+ <EditTextPreference
+     android:dialogIcon="@drawable/ip"
+     android:title="@string/prefs_item_ip"
+     android:key="ip" />
+<EditTextPreference
+        android:dialogIcon="@drawable/port"
+        android:title="@string/prefs_item_port"
+        android:key="port" />
+
+ <ListPreference
+            android:key="wifi"
+            android:title="@string/prefs_item_wifi"
+            android:entries="@array/prefs_wifi_start_entries"
+            android:entryValues="@array/prefs_wifi_start_values"/>
+
+<Preference
+        android:dialogIcon="@drawable/exit_small"
+        android:title="@string/capt_item_close"
+	    android:key="cmdClose" />
+
+</PreferenceScreen>
